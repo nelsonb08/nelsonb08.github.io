@@ -1,0 +1,211 @@
+.case {
+    height: 1220px;
+    width: 640px;
+    border-radius: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: -2;
+}
+
+.BG {
+    position: relative;
+    left: 67px;
+    top: 80px;
+    z-index: -1;
+}
+
+.BGimg {
+    width: 506px;
+    height: 1032px;
+}
+
+.camera {
+    height: 34px;
+    width: 34px;
+    border-radius: 50px;
+    position: relative;
+    left: 166px;
+    top: 67px;
+}
+
+.speaker {
+    height: 34px;
+    width: 235px;
+    border-radius: 50px;
+    position: relative;
+    left: 234px;
+    top: 34px;
+}
+
+.engtext {
+    font-size: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+
+.chtext {
+    font-size: 25px;
+    color: black;
+    font-family: 'DFkai-sb';
+    position: absolute;
+    font-weight: bold;
+}
+
+.icon {
+    z-index: 1;
+}
+
+.status {
+    position: absolute;
+    top: 148px;
+    left: 67px;
+}
+
+.statusimg {
+    width: 506px;
+    height: 46px;
+}
+
+.time {
+    position: absolute;
+    top: 210px;
+    left: 93px;
+}
+
+.timeimg {
+    width: 450px;
+}
+
+.fbimg {
+    position: absolute;
+    top: 500px;
+    left: 85px;
+    height: 130px;
+}
+
+.meimg {
+    position: absolute;
+    top: 504px;
+    left: 203px;
+    height: 130px;
+}
+
+.igimg {
+    position: absolute;
+    top: 502px;
+    left: 328px;
+    height: 130px;
+}
+
+.lineimg {
+    position: absolute;
+    top: 501px;
+    left: 432px;
+    height: 130px;
+}
+
+.playimg {
+    position: absolute;
+    top: 654px;
+    left: 86px;
+    height: 128px;
+}
+
+.ytimg {
+    position: absolute;
+    top: 656px;
+    left: 200px;
+    height: 130px;
+}
+
+.mapimg {
+    position: absolute;
+    top: 633px;
+    left: 326px;
+    height: 145px;
+}
+
+.chromeimg {
+    position: absolute;
+    top: 658px;
+    left: 420px;
+    height: 130px;
+}
+
+.plusimg {
+    position: absolute;
+    top: 780px;
+    left: 69px;
+    height: 150px;
+}
+
+.piimg {
+    position: absolute;
+    top: 806px;
+    left: 204px;
+    height: 120px;
+}
+
+.setimg {
+    position: absolute;
+    top: 803px;
+    left: 322px;
+    height: 130px;
+}
+
+.dcardimg {
+    position: absolute;
+    top: 801px;
+    left: 447px;
+    height: 130px;
+}
+
+.phoneimg {
+    position: absolute;
+    top: 990px;
+    left: 60px;
+    height: 120px;
+}
+
+.mailimg {
+    position: absolute;
+    top: 985px;
+    left: 156px;
+    height: 120px;
+}
+
+.moneyimg {
+    position: absolute;
+    top: 985px;
+    left: 249px;
+    height: 130px;
+}
+
+.cameraimg {
+    position: absolute;
+    top: 981px;
+    left: 353px;
+    height: 125px;
+}
+
+.photoimg {
+    position: absolute;
+    top: 982px;
+    left: 447px;
+    height: 130px;
+}
+
+.bottom {
+    width: 506px;
+    height: 70px;
+    background-color: #000;
+    position: absolute;
+    left: 67px;
+    top: 1110px;
+    opacity: 0.5;
+    background-image: url(../picture/bottom.png);
+    background-position-x: -10px;
+    background-size: contain;
+}
