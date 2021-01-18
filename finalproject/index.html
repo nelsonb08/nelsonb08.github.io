@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拆炸彈</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="../css/sizeandposition.css">
+</head>
+<body  background="../jpg/bgbg.jpg"></body>
+    <div class="reminder ">
+        <div class="remindline " style="border-bottom-style: hidden;" >
+            <div class="remindword" style="margin-top: 0px; font-size: 0.6cm;font-family: 標楷體;">［輸入紀錄］</div>
+        </div>
+        <div id="1" class="remindline">
+            <div id="1" class="remindword remindcount">１st：</div>
+     
+        </div>
+        <div id="2" class="remindline">
+            <div id="2" class="remindword remindcount">２nd：</div>
+        </div>
+        <div id="3" class="remindline">
+            <div id="3" class="remindword remindcount">３rd：</div>
+        </div>
+        <div id="4" class="remindline">
+            <div id="4" class="remindword remindcount">４th：</div>
+        </div>
+        <div id="5" class="remindline">
+            <div id="5" class="remindword remindcount">５th：</div>
+        </div>
+        <div id="6" class="remindline">
+            <div id="6" class="remindword remindcount">６th：</div>
+        </div>
+    </div>
+    <div class="bomb">
+        <div class="bombsliver">
+            <div class="bombnumber bm1 " style="background-image: url(../jpg/數字0.png);"></div>
+            <div class="bombnumber bm2 " style="background-image: url(../jpg/數字5.png);"></div>
+            <div class="bombdot bd1 " style="background-image: url(../jpg/冒號點點.png);"></div>
+            <div class="bombdot bd2 " style="background-image: url(../jpg/冒號點點.png);"></div>
+            <div class="bombnumber bm3 " style="background-image: url(../jpg/數字0.png);"></div>
+            <div class="bombnumber bm4 " style="background-image: url(../jpg/數字0.png);"></div>
+    </div>
+
+    <button id="startgame" class="button"><h1>開始遊戲</h1></button>
+    <button id="resetgame" class="button" disabled=true><h1>重置遊戲</h1></button>
+    <input  id="input" class="inputblank" maxlength="4"  placeholder="請輸入炸彈密碼" value="開始遊戲吧!" disabled=true  >
+    <button id="giveans" class="giveans"><h1>輸入</h1></button>
+    
+    <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <script src="../js/inputans.js"></script>
+  <script src="../js/start.js"></script>
+  <script src="../js/resetgame.js"></script>
+</body>
+</html>
